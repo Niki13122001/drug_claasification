@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model=pickle.load(open("C:/Users/nikitha/Downloads/drug_classificationwebapp/drug_class_model.sav",'rb'))
+loaded_model=pickle.load(open("drug_class_model.sav",'rb'))
 
 #creating a function for classification
 def drug_classification(input_data):
